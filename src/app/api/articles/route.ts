@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { CreateArticleDto } from "@/utils/dtos";
 import { createArticleSchema } from "@/utils/validationSchemas";
-import { Article } from "@/generated/prisma";
+import { Article } from "@prisma/client";
 import { prisma } from "@/utils/db";
 import { ARTICLE_PER_PAGE } from "@/utils/constants";
 import { verifyToken } from "@/utils/verifyToken";
