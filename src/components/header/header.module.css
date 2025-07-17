@@ -1,0 +1,16 @@
+.logo {
+  color: #70664e;
+}
+.button {
+  background-color: #938564;
+}
+.button:hover {
+  background-color: #70664e;
+}
+.link {
+  color: black;
+  font-weight: bold;
+}
+.link:hover {
+  color: #70664e;
+}
